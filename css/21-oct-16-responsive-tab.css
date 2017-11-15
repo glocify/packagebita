@@ -1,0 +1,106 @@
+.responsive-tabs-container[class*="accordion-"] .tab-pane { margin-bottom: 15px; }
+.responsive-tabs-container[class*="accordion-"] .accordion-link { display: none; margin-bottom: 10px; padding: 10px 15px; background-color: #f5f5f5; border-radius: 3px; border: 1px solid #ddd; color: #333; float: left; width: 100%; }
+@media (max-width: 767px) {
+.responsive-tabs-container.accordion-xs .nav-tabs { display: none; }
+.responsive-tabs-container.accordion-xs .accordion-link { display: block; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.responsive-tabs-container.accordion-sm .nav-tabs { display: none; }
+.responsive-tabs-container.accordion-sm .accordion-link { display: block; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.responsive-tabs-container.accordion-md .nav-tabs { display: none; }
+.responsive-tabs-container.accordion-md .accordion-link { display: block; }
+}
+@media (min-width: 1200px) {
+.responsive-tabs-container.accordion-lg .nav-tabs { display: none; }
+.responsive-tabs-container.accordion-lg .accordion-link { display: block; }
+}
+/*# sourceMappingURL=bootstrap-responsive-tabs.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**risponsive-media**/
+
+ @media (min-width:320px) and (max-width:479px) {
+.catg-box { width: 100%; }
+.categsub-listing { border-top: 1px solid #ccc; padding: 9px 0 15px; }
+.menus { padding: 0; }
+.menus .container-fluid { padding-left: 0px; }
+.forget { padding-top: 6px; }
+.account { margin: 46px auto 0; width: 90%; }
+.sign_up .account .social { padding-top: 11px; }
+.sign_up_area { clear: both; padding: 10px 0 0; }
+.account .hr { display: none; }
+.sign_up .account .create_id .form-control { width: 100%; }
+.bnr-hding { font-size: 34px; }
+.tecls-st-loc { float: left; height: 44px; margin-bottom: 58px; margin-top: 4px; width: 100%; }
+.add-srch .dropdown.all-cat { margin-bottom: 6px; }
+.all-cat .btn.btn-default.dropdown-toggle { width: 100% !important; }
+.add-srch .serchh { margin-bottom: 4px; padding-left: 10px; width: 100% !important; }
+.sign_up .account .create_id > h2 { display: inline-block; margin-top: 17px; }
+.sign_up .account .create_id h3 br { display: none; }
+.sign_up .account .create_id h4 { font-size: 14px; }
+.sign_up .account .social .fbb { clear: both; display: block; margin: 0 auto; width: 252px; }
+}
+ @media (min-width:480px) and (max-width:639px) {
+.catg-box { width: 48%; }
+.menus { padding: 0; }
+.menus .container-fluid { padding-left: 0px; }
+.formarea form .btn.btn-default { float: left; }
+.forget { margin-bottom: 12px; padding-top: 7px; }
+.account { margin: 46px auto 0; width: 90%; }
+.sign_up .account .social { padding-top: 11px; }
+.sign_up_area { clear: both; padding: 10px 0 0; }
+.account .hr { display: none; }
+.sign_up .account .create_id .form-control { width: 100%; }
+.bnr-hding { font-size: 34px; }
+.tecls-st-loc { float: left; height: 44px; margin-bottom: 58px; margin-top: 4px; width: 100%; }
+.add-srch .dropdown.all-cat { margin-bottom: 6px; }
+.all-cat .btn.btn-default.dropdown-toggle { width: 100% !important; }
+.add-srch .serchh { margin-bottom: 4px; padding-left: 10px; width: 100% !important; }
+.sign_up .account .create_id > h2 { display: inline-block; margin-top: 17px; }
+.sign_up .account .create_id h3 br { display: none; }
+.sign_up .account .social .fbb { clear: both; display: block; margin: 0 auto; width: 252px; }
+}
+ @media (min-width:640px) and (max-width:767px) {
+.catg-box { width: 31%; }
+.menus { padding: 0; }
+.menus .container-fluid { padding-left: 0px; }
+.formarea form .btn.btn-default { float: left; }
+.forget { margin-bottom: 12px; padding-top: 7px; }
+.account { margin: 46px auto 0; width: 90%; }
+.sign_up .account .social { padding-top: 11px; }
+.sign_up_area { clear: both; padding: 10px 0 0; }
+.account .hr { display: none; }
+.sign_up .account .create_id .form-control { width: 100%; }
+.bnr-hding { font-size: 34px; }
+.tecls-st-loc { float: left; height: 44px; margin-bottom: 58px; margin-top: 4px; width: 100%; }
+.add-srch .dropdown.all-cat { margin-bottom: 6px; }
+.all-cat .btn.btn-default.dropdown-toggle { width: 100% !important; }
+.add-srch .serchh { margin-bottom: 4px; padding-left: 10px; width: 100% !important; }
+.sign_up .account .create_id > h2 { display: inline-block; margin-top: 17px; }
+.sign_up .account .create_id h3 br { display: none; }
+.sign_up .account .social .fbb { clear: both; display: block; margin: 0 auto; width: 252px; }
+}
+ @media (min-width:768px) and (max-width:991px) {
+.catg-box { width: 23%; }
+.account { width: 730px; }
+.sidebar { width: 29%; }
+.tecls-st-loc { width: 68%; }
+.sign_up .account .create_id h3 br { display: none; }
+}
+ @media (min-width:992px) and (max-width:1300px) {
+.account { width: 730px; }
+.sign_up .account .create_id h3 br { display: none; }
+}
